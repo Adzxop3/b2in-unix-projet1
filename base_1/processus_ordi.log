@@ -1,0 +1,354 @@
+===============================
+Processus de l'ordinateur Log - Wed Oct  9 17:00:04 CEST 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.7        0.1    167040 12416  /sbin/init
+root     467    0.3        0.4    44172  37716  python3
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47812  15068  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5800   /lib/systemd/systemd-udevd
+root     70     0.0        0.0    152992 160    snapfuse
+root     73     0.0        0.1    377284 13548  snapfuse
+root     84     0.0        0.0    153124 2256   snapfuse
+root     90     0.0        0.0    152992 216    snapfuse
+root     96     0.0        0.0    302520 7044   snapfuse
+root     102    0.0        0.0    152992 176    snapfuse
+root     105    0.0        0.1    302520 14540  snapfuse
+systemd+ 114    0.0        0.1    25540  12516  /lib/systemd/systemd-resolved
+root     138    0.0        0.0    4308   2656   /usr/sbin/cron
+message+ 140    0.0        0.0    8596   4636   @dbus-daemon
+root     163    0.0        0.2    30108  18936  /usr/bin/python3
+syslog   164    0.0        0.0    222404 7008   /usr/sbin/rsyslogd
+root     170    0.0        0.5    2059588 43708  /usr/lib/snapd/snapd
+root     171    0.0        0.0    15332  7184   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3316   /bin/bash
+root     246    0.0        0.2    107232 20916  /usr/bin/python3
+root     258    0.0        0.0    3240   1088   /sbin/agetty
+root     269    0.0        0.0    3196   1076   /sbin/agetty
+root     361    0.0        0.0    7528   4968   /bin/login
+root     371    0.0        1.0    1016736 85208  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+adam     430    0.0        0.1    16908  9128   /lib/systemd/systemd
+adam     433    0.0        0.0    168892 3424   (sd-pam)
+adam     438    0.0        0.0    6124   4932   -bash
+root     1817   0.0        0.1    302520 8344   snapfuse
+root     5750   0.0        0.2    293004 20100  /usr/libexec/packagekitd
+root     5780   0.0        0.1    234504 8948   /usr/libexec/polkitd
+root     27319  0.0        0.0    2620   128    /init
+root     27320  0.0        0.0    2620   132    /init
+adam     27324  0.0        0.0    6212   5184   -bash
+root     39672  0.0        0.0    2620   128    /init
+root     39673  0.0        0.0    2620   132    /init
+adam     39679  0.0        0.0    6336   5372   -bash
+adam     41808  0.0        0.0    4784   3300   /bin/bash
+adam     41810  0.0        0.0    7644   3124   ps
+adam     41811  0.0        0.0    8624   2936   awk
+root     41812  0.0        0.0    7460   1548   systemctl
+
+===============================
+
+===============================
+Processus de l'ordinateur Log - Wed Oct  9 17:00:09 CEST 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.7        0.1    167040 12416  /sbin/init
+root     467    0.3        0.4    44172  37716  python3
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47812  15068  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5800   /lib/systemd/systemd-udevd
+root     70     0.0        0.0    152992 160    snapfuse
+root     73     0.0        0.1    377284 13548  snapfuse
+root     84     0.0        0.0    153124 2256   snapfuse
+root     90     0.0        0.0    152992 216    snapfuse
+root     96     0.0        0.0    302520 7044   snapfuse
+root     102    0.0        0.0    152992 176    snapfuse
+root     105    0.0        0.1    302520 14540  snapfuse
+systemd+ 114    0.0        0.1    25540  12516  /lib/systemd/systemd-resolved
+root     138    0.0        0.0    4308   2656   /usr/sbin/cron
+message+ 140    0.0        0.0    8596   4636   @dbus-daemon
+root     163    0.0        0.2    30108  18936  /usr/bin/python3
+syslog   164    0.0        0.0    222404 7008   /usr/sbin/rsyslogd
+root     170    0.0        0.5    2059588 43708  /usr/lib/snapd/snapd
+root     171    0.0        0.0    15332  7184   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3316   /bin/bash
+root     246    0.0        0.2    107232 20916  /usr/bin/python3
+root     258    0.0        0.0    3240   1088   /sbin/agetty
+root     269    0.0        0.0    3196   1076   /sbin/agetty
+root     361    0.0        0.0    7528   4968   /bin/login
+root     371    0.0        1.0    1016736 85208  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+adam     430    0.0        0.1    16908  9128   /lib/systemd/systemd
+adam     433    0.0        0.0    168892 3424   (sd-pam)
+adam     438    0.0        0.0    6124   4932   -bash
+root     1817   0.0        0.1    302520 8344   snapfuse
+root     5750   0.0        0.2    293004 20100  /usr/libexec/packagekitd
+root     5780   0.0        0.1    234504 8948   /usr/libexec/polkitd
+root     27319  0.0        0.0    2620   128    /init
+root     27320  0.0        0.0    2620   132    /init
+adam     27324  0.0        0.0    6212   5184   -bash
+root     39672  0.0        0.0    2620   128    /init
+root     39673  0.0        0.0    2620   132    /init
+adam     39679  0.0        0.0    6336   5372   -bash
+adam     41808  0.0        0.0    4916   3752   /bin/bash
+adam     41828  0.0        0.0    5080   3984   nano
+adam     41835  0.0        0.0    7644   3084   ps
+adam     41836  0.0        0.0    8624   3064   awk
+
+===============================
+
+===============================
+Processus de l'ordinateur Log - Wed Oct  9 17:00:14 CEST 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.7        0.1    167040 12416  /sbin/init
+root     467    0.3        0.4    44172  37716  python3
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47812  15068  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5800   /lib/systemd/systemd-udevd
+root     70     0.0        0.0    152992 160    snapfuse
+root     73     0.0        0.1    377284 13548  snapfuse
+root     84     0.0        0.0    153124 2256   snapfuse
+root     90     0.0        0.0    152992 216    snapfuse
+root     96     0.0        0.0    302520 7044   snapfuse
+root     102    0.0        0.0    152992 176    snapfuse
+root     105    0.0        0.1    302520 14540  snapfuse
+systemd+ 114    0.0        0.1    25540  12516  /lib/systemd/systemd-resolved
+root     138    0.0        0.0    4308   2656   /usr/sbin/cron
+message+ 140    0.0        0.0    8596   4636   @dbus-daemon
+root     163    0.0        0.2    30108  18936  /usr/bin/python3
+syslog   164    0.0        0.0    222404 7008   /usr/sbin/rsyslogd
+root     170    0.0        0.5    2059588 43708  /usr/lib/snapd/snapd
+root     171    0.0        0.0    15332  7184   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3316   /bin/bash
+root     246    0.0        0.2    107232 20916  /usr/bin/python3
+root     258    0.0        0.0    3240   1088   /sbin/agetty
+root     269    0.0        0.0    3196   1076   /sbin/agetty
+root     361    0.0        0.0    7528   4968   /bin/login
+root     371    0.0        1.0    1016736 85208  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+adam     430    0.0        0.1    16908  9128   /lib/systemd/systemd
+adam     433    0.0        0.0    168892 3424   (sd-pam)
+adam     438    0.0        0.0    6124   4932   -bash
+root     1817   0.0        0.1    302520 8344   snapfuse
+root     5750   0.0        0.2    293004 20100  /usr/libexec/packagekitd
+root     5780   0.0        0.1    234504 8948   /usr/libexec/polkitd
+root     27319  0.0        0.0    2620   128    /init
+root     27320  0.0        0.0    2620   132    /init
+adam     27324  0.0        0.0    6212   5184   -bash
+root     39672  0.0        0.0    2620   128    /init
+root     39673  0.0        0.0    2620   132    /init
+adam     39679  0.0        0.0    6336   5372   -bash
+adam     41808  0.0        0.0    4916   3756   /bin/bash
+adam     41828  0.0        0.0    5080   3984   nano
+adam     41858  0.0        0.0    7644   3032   ps
+adam     41859  0.0        0.0    8624   3008   awk
+
+===============================
+
+===============================
+Processus de l'ordinateur Log - Wed Oct  9 17:00:19 CEST 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.7        0.1    167040 12416  /sbin/init
+root     467    0.3        0.4    44172  37716  python3
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47812  15068  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5800   /lib/systemd/systemd-udevd
+root     70     0.0        0.0    152992 160    snapfuse
+root     73     0.0        0.1    377284 13548  snapfuse
+root     84     0.0        0.0    153124 2256   snapfuse
+root     90     0.0        0.0    152992 216    snapfuse
+root     96     0.0        0.0    302520 7044   snapfuse
+root     102    0.0        0.0    152992 176    snapfuse
+root     105    0.0        0.1    302520 14540  snapfuse
+systemd+ 114    0.0        0.1    25540  12516  /lib/systemd/systemd-resolved
+root     138    0.0        0.0    4308   2656   /usr/sbin/cron
+message+ 140    0.0        0.0    8596   4636   @dbus-daemon
+root     163    0.0        0.2    30108  18936  /usr/bin/python3
+syslog   164    0.0        0.0    222404 7008   /usr/sbin/rsyslogd
+root     170    0.0        0.5    2059588 43708  /usr/lib/snapd/snapd
+root     171    0.0        0.0    15332  7184   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3316   /bin/bash
+root     246    0.0        0.2    107232 20916  /usr/bin/python3
+root     258    0.0        0.0    3240   1088   /sbin/agetty
+root     269    0.0        0.0    3196   1076   /sbin/agetty
+root     361    0.0        0.0    7528   4968   /bin/login
+root     371    0.0        1.0    1016736 85208  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+adam     430    0.0        0.1    16908  9128   /lib/systemd/systemd
+adam     433    0.0        0.0    168892 3424   (sd-pam)
+adam     438    0.0        0.0    6124   4932   -bash
+root     1817   0.0        0.1    302520 8344   snapfuse
+root     5750   0.0        0.2    293004 20100  /usr/libexec/packagekitd
+root     5780   0.0        0.1    234504 8948   /usr/libexec/polkitd
+root     27319  0.0        0.0    2620   128    /init
+root     27320  0.0        0.0    2620   132    /init
+adam     27324  0.0        0.0    6212   5184   -bash
+root     39672  0.0        0.0    2620   128    /init
+root     39673  0.0        0.0    2620   132    /init
+adam     39679  0.0        0.0    6336   5372   -bash
+adam     41808  0.0        0.0    4916   3756   /bin/bash
+adam     41882  0.0        0.0    7644   3148   ps
+adam     41883  0.0        0.0    8624   2948   awk
+
+===============================
+
+===============================
+Processus de l'ordinateur Log - Wed Oct  9 17:00:21 CEST 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.7        0.1    167040 12416  /sbin/init
+root     467    0.3        0.4    44172  37716  python3
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47812  15068  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5800   /lib/systemd/systemd-udevd
+root     70     0.0        0.0    152992 160    snapfuse
+root     73     0.0        0.1    377284 13548  snapfuse
+root     84     0.0        0.0    153124 2256   snapfuse
+root     90     0.0        0.0    152992 216    snapfuse
+root     96     0.0        0.0    302520 7044   snapfuse
+root     102    0.0        0.0    152992 176    snapfuse
+root     105    0.0        0.1    302520 14540  snapfuse
+systemd+ 114    0.0        0.1    25540  12516  /lib/systemd/systemd-resolved
+root     138    0.0        0.0    4308   2656   /usr/sbin/cron
+message+ 140    0.0        0.0    8596   4636   @dbus-daemon
+root     163    0.0        0.2    30108  18936  /usr/bin/python3
+syslog   164    0.0        0.0    222404 7008   /usr/sbin/rsyslogd
+root     170    0.0        0.5    2059588 43708  /usr/lib/snapd/snapd
+root     171    0.0        0.0    15332  7184   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3316   /bin/bash
+root     246    0.0        0.2    107232 20916  /usr/bin/python3
+root     258    0.0        0.0    3240   1088   /sbin/agetty
+root     269    0.0        0.0    3196   1076   /sbin/agetty
+root     361    0.0        0.0    7528   4968   /bin/login
+root     371    0.0        1.0    1016736 85208  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+adam     430    0.0        0.1    16908  9128   /lib/systemd/systemd
+adam     433    0.0        0.0    168892 3424   (sd-pam)
+adam     438    0.0        0.0    6124   4932   -bash
+root     1817   0.0        0.1    302520 8344   snapfuse
+root     5750   0.0        0.2    293004 20100  /usr/libexec/packagekitd
+root     5780   0.0        0.1    234504 8948   /usr/libexec/polkitd
+root     27319  0.0        0.0    2620   128    /init
+root     27320  0.0        0.0    2620   132    /init
+adam     27324  0.0        0.0    6212   5184   -bash
+root     39672  0.0        0.0    2620   128    /init
+root     39673  0.0        0.0    2620   132    /init
+adam     39679  0.0        0.0    6336   5372   -bash
+adam     41893  0.0        0.0    4784   3340   /bin/bash
+adam     41895  0.0        0.0    7644   3048   ps
+adam     41896  0.0        0.0    8624   3040   awk
+
+===============================
+
+===============================
+Processus de l'ordinateur Log - Wed Oct  9 17:01:06 CEST 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.7        0.1    167040 12416  /sbin/init
+root     467    0.3        0.4    44172  37716  python3
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47812  15068  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5800   /lib/systemd/systemd-udevd
+root     70     0.0        0.0    152992 160    snapfuse
+root     73     0.0        0.1    377284 13548  snapfuse
+root     84     0.0        0.0    153124 2256   snapfuse
+root     90     0.0        0.0    152992 216    snapfuse
+root     96     0.0        0.0    302520 7044   snapfuse
+root     102    0.0        0.0    152992 176    snapfuse
+root     105    0.0        0.1    302520 14540  snapfuse
+systemd+ 114    0.0        0.1    25540  12516  /lib/systemd/systemd-resolved
+root     138    0.0        0.0    4308   2656   /usr/sbin/cron
+message+ 140    0.0        0.0    8596   4636   @dbus-daemon
+root     163    0.0        0.2    30108  18936  /usr/bin/python3
+syslog   164    0.0        0.0    222404 7008   /usr/sbin/rsyslogd
+root     170    0.0        0.5    2059588 43708  /usr/lib/snapd/snapd
+root     171    0.0        0.0    15332  7184   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3316   /bin/bash
+root     246    0.0        0.2    107232 20916  /usr/bin/python3
+root     258    0.0        0.0    3240   1088   /sbin/agetty
+root     269    0.0        0.0    3196   1076   /sbin/agetty
+root     361    0.0        0.0    7528   4968   /bin/login
+root     371    0.0        1.0    1016736 85208  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+adam     430    0.0        0.1    16908  9128   /lib/systemd/systemd
+adam     433    0.0        0.0    168892 3424   (sd-pam)
+adam     438    0.0        0.0    6124   4932   -bash
+root     1817   0.0        0.1    302520 8344   snapfuse
+root     5750   0.0        0.2    293004 20100  /usr/libexec/packagekitd
+root     5780   0.0        0.1    234504 8948   /usr/libexec/polkitd
+root     27319  0.0        0.0    2620   128    /init
+root     27320  0.0        0.0    2620   132    /init
+adam     27324  0.0        0.0    6212   5184   -bash
+root     39672  0.0        0.0    2620   128    /init
+root     39673  0.0        0.0    2620   132    /init
+adam     39679  0.0        0.0    6336   5372   -bash
+adam     42076  0.0        0.0    4784   3176   /bin/bash
+adam     42078  0.0        0.0    7644   3124   ps
+adam     42079  0.0        0.0    8624   2952   awk
+
+===============================
+
+===============================
+Processus de l'ordinateur Log - Wed Oct  9 17:01:11 CEST 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.7        0.1    167040 12416  /sbin/init
+root     467    0.3        0.4    44172  37716  python3
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47812  15068  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5800   /lib/systemd/systemd-udevd
+root     70     0.0        0.0    152992 160    snapfuse
+root     73     0.0        0.1    377284 13548  snapfuse
+root     84     0.0        0.0    153124 2256   snapfuse
+root     90     0.0        0.0    152992 216    snapfuse
+root     96     0.0        0.0    302520 7044   snapfuse
+root     102    0.0        0.0    152992 176    snapfuse
+root     105    0.0        0.1    302520 14540  snapfuse
+systemd+ 114    0.0        0.1    25540  12516  /lib/systemd/systemd-resolved
+root     138    0.0        0.0    4308   2656   /usr/sbin/cron
+message+ 140    0.0        0.0    8596   4636   @dbus-daemon
+root     163    0.0        0.2    30108  18936  /usr/bin/python3
+syslog   164    0.0        0.0    222404 7008   /usr/sbin/rsyslogd
+root     170    0.0        0.5    2059588 43708  /usr/lib/snapd/snapd
+root     171    0.0        0.0    15332  7184   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3316   /bin/bash
+root     246    0.0        0.2    107232 20916  /usr/bin/python3
+root     258    0.0        0.0    3240   1088   /sbin/agetty
+root     269    0.0        0.0    3196   1076   /sbin/agetty
+root     361    0.0        0.0    7528   4968   /bin/login
+root     371    0.0        1.0    1016736 85208  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+adam     430    0.0        0.1    16908  9128   /lib/systemd/systemd
+adam     433    0.0        0.0    168892 3424   (sd-pam)
+adam     438    0.0        0.0    6124   4932   -bash
+root     1817   0.0        0.1    302520 8344   snapfuse
+root     5750   0.0        0.2    293004 20100  /usr/libexec/packagekitd
+root     5780   0.0        0.1    234504 8948   /usr/libexec/polkitd
+root     27319  0.0        0.0    2620   128    /init
+root     27320  0.0        0.0    2620   132    /init
+adam     27324  0.0        0.0    6212   5184   -bash
+root     39672  0.0        0.0    2620   128    /init
+root     39673  0.0        0.0    2620   132    /init
+adam     39679  0.0        0.0    6336   5372   -bash
+adam     42076  0.0        0.0    4916   3620   /bin/bash
+adam     42088  0.0        0.0    5080   4044   nano
+adam     42102  0.0        0.0    7644   2972   ps
+adam     42103  0.0        0.0    8624   2920   awk
+
+===============================
+
