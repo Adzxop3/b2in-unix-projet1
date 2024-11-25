@@ -23,6 +23,35 @@ log_anomaly() {
     echo "===============================" >> $log_file
 }
 
+high_cpu_processes=$(ps -eo pid,user,pcpu,comm --sort=-pcpu | awk '$3 > 80')
+if [ ! -z "$high_cpu_processes" ]; then
+  echo "$(date) - Anomalie détectée : Utilisation CPU élevée" >> ./processus_ordi.log
+  echo "$high_cpu_processes" >> ./processus_ordi.log
+fi
+
+unauthorized_processes=$(ps -eo pid,user,comm | grep -E 'sshd|apache2|nginx' | awk '$2 != "root"')
+if [ ! -z "$unauthorized_processes" ]; then
+  echo "$(date) - Anomalie détectée : Processus exécuté par un utilisateur non autorisé" >> ./process_ordi.log
+  echo "$unauthorized_processes" >> ./processus_ordi.log
+fi
+zombie_processes=$(ps -eo stat,pid,comm | grep '^Z')
+if [ ! -z "$zombie_processes" ]; then
+  echo "$(date) - Anomalie détectée : Processus zombie" >> ./processus_ordi.log
+  echo "$zombie_processes" >> ./processus_ordi.log
+fi
+
+echo "Quelle action souhaitez-vous entreprendre pour le processus PID $pid (nom : $process_name) ?"
+echo "1. Tuer le processus"
+echo "2. Baisser la priorité (renice)"
+echo "3. Ignorer"
+read choice
+case $choice in
+  1) kill -9 $pid ;;
+  2) renice +10 $pid ;;
+  3) echo "Aucune action prise" ;;
+esac
+
+
 send_notification() {
     local message=$1
     echo "$message" | mail -s "Alerte de processus suspect" user@example.com
@@ -44,6 +73,7 @@ ordi_processus() {
     echo "===============================" >> $log_file
     echo "" >> $log_file
 }
+
 
 # " Boucle infinie "
 while true; do
