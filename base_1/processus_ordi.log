@@ -1811,3 +1811,183 @@ adam     12687  0.0        0.0    8624   2996   awk
 
 ===============================
 
+===============================
+Processus de l'ordinateur Log - Mon Dec  2 08:27:16 CET 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.7        0.1    165968 11188  /sbin/init
+root     339    0.5        0.9    154372 71444  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+root     507    0.5        0.4    44172  38328  python3
+root     96     0.4        0.1    526812 15348  snapfuse
+root     105    0.2        0.1    302520 13104  snapfuse
+root     74     0.1        0.1    377416 11368  snapfuse
+root     172    0.1        0.5    2060148 46504  /usr/lib/snapd/snapd
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47740  14024  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5932   /lib/systemd/systemd-udevd
+root     72     0.0        0.0    152992 180    snapfuse
+root     75     0.0        0.0    152992 184    snapfuse
+root     86     0.0        0.0    153124 2208   snapfuse
+root     91     0.0        0.0    152992 2232   snapfuse
+root     101    0.0        0.0    152992 184    snapfuse
+systemd+ 114    0.0        0.1    25540  12676  /lib/systemd/systemd-resolved
+root     128    0.0        0.0    4308   2756   /usr/sbin/cron
+message+ 130    0.0        0.0    8600   4612   @dbus-daemon
+root     153    0.0        0.2    30108  18948  /usr/bin/python3
+syslog   160    0.0        0.0    222404 5240   /usr/sbin/rsyslogd
+root     173    0.0        0.0    15332  7084   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3352   /bin/bash
+root     255    0.0        0.2    107232 21012  /usr/bin/python3
+root     263    0.0        0.0    3240   1072   /sbin/agetty
+root     265    0.0        0.0    3196   1060   /sbin/agetty
+root     390    0.0        0.0    2620   124    /init
+root     391    0.0        0.0    2620   128    /init
+adam     393    0.0        0.0    6176   5112   -bash
+root     394    0.0        0.0    2620   124    /init
+root     395    0.0        0.0    2620   128    /init
+root     396    0.0        0.0    7532   4776   /bin/login
+adam     397    0.0        0.0    6176   5052   -bash
+adam     487    0.0        0.1    16908  8632   /lib/systemd/systemd
+adam     489    0.0        0.0    168896 3500   (sd-pam)
+adam     494    0.0        0.0    6124   4892   -bash
+adam     2665   0.0        0.0    4916   3344   bash
+adam     2667   0.0        0.0    7644   3032   ps
+adam     2668   0.0        0.0    1496   308    awk
+
+===============================
+
+===============================
+Processus de l'ordinateur Log - Mon Dec  2 08:32:18 CET 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.9        0.1    167168 12536  /sbin/init
+root     507    0.5        0.4    44172  38328  python3
+root     339    0.4        1.1    1115048 89844  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+root     96     0.2        0.1    526812 14948  snapfuse
+root     105    0.1        0.1    302520 13372  snapfuse
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47740  14220  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5932   /lib/systemd/systemd-udevd
+root     72     0.0        0.0    152992 180    snapfuse
+root     74     0.0        0.1    377416 11924  snapfuse
+root     75     0.0        0.0    152992 184    snapfuse
+root     86     0.0        0.0    153124 2208   snapfuse
+root     91     0.0        0.0    152992 2232   snapfuse
+root     101    0.0        0.0    152992 184    snapfuse
+systemd+ 114    0.0        0.1    25540  12676  /lib/systemd/systemd-resolved
+root     128    0.0        0.0    4308   2756   /usr/sbin/cron
+message+ 130    0.0        0.0    8600   4612   @dbus-daemon
+root     153    0.0        0.2    30108  18948  /usr/bin/python3
+syslog   160    0.0        0.0    222404 5240   /usr/sbin/rsyslogd
+root     172    0.0        0.6    2060148 48572  /usr/lib/snapd/snapd
+root     173    0.0        0.0    15332  7084   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3352   /bin/bash
+root     255    0.0        0.2    107232 21012  /usr/bin/python3
+root     263    0.0        0.0    3240   1072   /sbin/agetty
+root     265    0.0        0.0    3196   1060   /sbin/agetty
+root     390    0.0        0.0    2620   124    /init
+root     391    0.0        0.0    2620   128    /init
+adam     393    0.0        0.0    6176   5116   -bash
+root     394    0.0        0.0    2620   124    /init
+root     395    0.0        0.0    2620   128    /init
+root     396    0.0        0.0    7532   4776   /bin/login
+adam     397    0.0        0.0    6176   5060   -bash
+adam     487    0.0        0.1    16908  8632   /lib/systemd/systemd
+adam     489    0.0        0.0    168896 3500   (sd-pam)
+adam     494    0.0        0.0    6124   4892   -bash
+root     3767   0.0        0.0    6780   4652   /usr/sbin/apache2
+www-data 3768   0.0        0.1    1998180 10748  /usr/sbin/apache2
+www-data 3769   0.0        0.1    1998180 10748  /usr/sbin/apache2
+www-data 3881   0.0        0.0    3740   160    /usr/bin/htcacheclean
+root     3991   0.0        0.2    293004 20092  /usr/libexec/packagekitd
+root     3996   0.0        0.0    234504 6540   /usr/libexec/polkitd
+adam     4471   0.0        0.0    13548  7300   python3
+adam     4472   0.0        0.0    0      0      [python3]
+adam     4658   0.0        0.0    4916   3380   bash
+adam     4660   0.0        0.0    7644   3028   ps
+adam     4661   0.0        0.0    1160   304    awk
+
+===============================
+
+[2024-12-02 08:32:18] ANOMALIE DÉTECTÉE : Processus exécuté par un utilisateur non autorisé
+PID :    3768 www-data apache2
+   3769 www-data apache2, Processus : , Utilisateur : 
+Détails : 
+Action entreprise : 
+===============================
+[2024-12-02 08:32:19] ANOMALIE DÉTECTÉE : Processus zombie
+PID : Z+      4472 python3 <defunct>, Processus : , Utilisateur : 
+Détails : 
+Action entreprise : 
+===============================
+[2024-12-02 08:32:27] ANOMALIE DÉTECTÉE : Processus tué
+PID : 4471, Processus : N/A, Utilisateur : N/A
+Détails : N/A
+Action entreprise : Processus terminé
+===============================
+===============================
+Processus de l'ordinateur Log - Mon Dec  2 08:32:32 CET 2024
+===============================
+
+USER     PID    CPU%       MEM%   VSZ    RSS    COMMAND
+USER     PID    %CPU       %MEM   VSZ    RSS    COMMAND
+root     1      0.8        0.1    167168 12536  /sbin/init
+root     507    0.5        0.4    44172  38328  python3
+root     339    0.4        1.1    1115048 89844  /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10
+root     96     0.2        0.1    526812 14948  snapfuse
+root     105    0.1        0.1    302520 13372  snapfuse
+root     2      0.0        0.0    2616   1444   /init
+root     6      0.0        0.0    2616   4      plan9
+root     38     0.0        0.1    47740  14220  /lib/systemd/systemd-journald
+root     59     0.0        0.0    22100  5932   /lib/systemd/systemd-udevd
+root     72     0.0        0.0    152992 180    snapfuse
+root     74     0.0        0.1    377416 11924  snapfuse
+root     75     0.0        0.0    152992 184    snapfuse
+root     86     0.0        0.0    153124 2208   snapfuse
+root     91     0.0        0.0    152992 2232   snapfuse
+root     101    0.0        0.0    152992 184    snapfuse
+systemd+ 114    0.0        0.1    25540  12676  /lib/systemd/systemd-resolved
+root     128    0.0        0.0    4308   2756   /usr/sbin/cron
+message+ 130    0.0        0.0    8600   4612   @dbus-daemon
+root     153    0.0        0.2    30108  18948  /usr/bin/python3
+syslog   160    0.0        0.0    222404 5240   /usr/sbin/rsyslogd
+root     172    0.0        0.6    2060148 48572  /usr/lib/snapd/snapd
+root     173    0.0        0.0    15332  7084   /lib/systemd/systemd-logind
+root     243    0.0        0.0    4784   3352   /bin/bash
+root     255    0.0        0.2    107232 21012  /usr/bin/python3
+root     263    0.0        0.0    3240   1072   /sbin/agetty
+root     265    0.0        0.0    3196   1060   /sbin/agetty
+root     390    0.0        0.0    2620   124    /init
+root     391    0.0        0.0    2620   128    /init
+adam     393    0.0        0.0    6176   5116   -bash
+root     394    0.0        0.0    2620   124    /init
+root     395    0.0        0.0    2620   128    /init
+root     396    0.0        0.0    7532   4776   /bin/login
+adam     397    0.0        0.0    6176   5060   -bash
+adam     487    0.0        0.1    16908  8632   /lib/systemd/systemd
+adam     489    0.0        0.0    168896 3500   (sd-pam)
+adam     494    0.0        0.0    6124   4892   -bash
+root     3767   0.0        0.0    6780   4652   /usr/sbin/apache2
+www-data 3768   0.0        0.1    1998180 10748  /usr/sbin/apache2
+www-data 3769   0.0        0.1    1998180 10748  /usr/sbin/apache2
+www-data 3881   0.0        0.0    3740   160    /usr/bin/htcacheclean
+root     3991   0.0        0.2    293004 20092  /usr/libexec/packagekitd
+root     3996   0.0        0.0    234504 6540   /usr/libexec/polkitd
+adam     4658   0.0        0.0    4916   3896   bash
+adam     4735   0.0        0.0    7644   3184   ps
+adam     4736   0.0        0.0    8624   2804   awk
+
+===============================
+
+[2024-12-02 08:32:32] ANOMALIE DÉTECTÉE : Processus exécuté par un utilisateur non autorisé
+PID :    3768 www-data apache2
+   3769 www-data apache2, Processus : , Utilisateur : 
+Détails : 
+Action entreprise : 
+===============================
