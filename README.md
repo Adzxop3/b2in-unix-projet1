@@ -4,3 +4,6 @@
 - Fichier processus_ordi.log qui affiche chaque processus grâce à la commande bash `ps -aux`, mais détecte également une anomalie en détaillant son PID, le USER, le type de processus.
 - Fichier processus_ordi.sh où se trouve le code à éxécuter.
 - Fichier zombie.py qui initialise le processus zombie.
+
+### Fichiers LOGS
+Le fichier processus_ordi.log détaille quotidiennement tous les processus 
